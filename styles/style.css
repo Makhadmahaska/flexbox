@@ -6,9 +6,7 @@
     
     body {
     min-height: 100vh;
-    padding: 12rem;
-    background-color: #fff;
-    font-family: system-ui, sans-serif;
+
     }
     
 .square{
@@ -27,12 +25,16 @@
 }
 
 header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vh;
 
-    position: absolute;
 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    
+
+
 
 }
 
@@ -50,19 +52,10 @@ header{
 
  .rectangle-grid{
     display: flex;
-    position: relative;
-    justify-content: center;
-     flex-wrap: wrap;
-    width: 1050px;
-    gap: 8px;
-    margin-top: 10px;
+    flex-wrap: wrap;
+    width: 450px;
+    gap:10px;
     
-
-
-    
-
-    
-
     
  }
 
@@ -70,10 +63,8 @@ header{
 
  .row1_box {
     background-color: #F48C06;
-    width: 220px;
-    height: 80px;
+    flex-grow: 1;
     display: flex; 
-    position: relative;
     align-items: flex-end;
 
     gap: 0px;
@@ -82,10 +73,9 @@ header{
 
 .row2_box {
     background-color: #F48C06;
-    width: 220px;
-    height: 80px;
+    flex-grow: 1;
+
     display: flex; 
-    position: relative;
     align-items: center;
     justify-content: flex-start;
     border-radius: 4px;
@@ -94,10 +84,10 @@ header{
 
 .row3_box {
     background-color: #F48C06;
-    width: 220px;
-    height: 80px;
+
     display: flex;
-    position: relative;
+    flex-grow: 1;
+    
     align-items: center;
     justify-content: flex-end;
     gap: 5px;
@@ -106,8 +96,7 @@ header{
 
 .row4_box {
     background-color: #F48C06;
-    width: 220px;
-    height: 80px;
+    
     display: flex;
 
     
@@ -119,8 +108,6 @@ header{
 .row5_box {
     background-color: #F48C06;
     display: flex;
-    width: 220px;
-    height: 80px;
     border-radius: 4px;
     justify-content: center;
     gap: 16px;
@@ -128,11 +115,8 @@ header{
 
 .row6_box {
     background-color: #F48C06;
-    width: 220px;
-    height: 80px;
     display: flex; 
     justify-content: center;
-    
     gap: 4px;
     border-radius: 4px;
    
@@ -164,9 +148,7 @@ header{
     background-color: #9D0208;
     width: 40px;
     height: 40px;
-    border-radius: 2px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    border-radius: 2px; 
 }
 
 
@@ -175,13 +157,7 @@ header{
     background-color: #9D0208;
     width: 40px;
     height: 60px;
-    border-radius: 2px;
-    margin: 0;
-    padding: 0;
-    margin-top: 8px;
-    margin-left: 20px;;
-
-    
+    border-radius: 2px;    
 
 }
 
@@ -192,9 +168,7 @@ header{
     background-color: #9D0208;
     width: 40px;
     height: 40px;
-    border-radius: 2px;
-
-    
+    border-radius: 2px; 
    
 }
 
@@ -204,8 +178,7 @@ header{
     width: 40px;
     height: 40px;
     border-radius: 2px;
-    margin-top: 10px;
-    margin-left: 10px;
+    
     
     
 
@@ -231,8 +204,7 @@ header{
         width: 40px;
         height: 40px;
         border-radius: 2px;
-        margin-top: 30px;
-        margin-left: 30px;
+        
        
        
     }
@@ -244,7 +216,7 @@ header{
     width: 40px;
     height: 70px;
     border-radius: 2px;
-    margin-top: 5px;
+    
 
     }
 
@@ -255,7 +227,7 @@ header{
     width: 40px;
     height: 40px;
     border-radius: 2px;
-    margin-top: 20px;
+    
     
         
     }
@@ -266,7 +238,7 @@ header{
     width: 40px;
     height: 70px;
     border-radius: 2px;
-    margin-top: 5px;
+    
             
 }
 
@@ -277,7 +249,7 @@ header{
     width: 40px;
     height: 40px;
     border-radius: 2px;
-    margin-top: 10px;
+    
 
     }
 
@@ -288,7 +260,7 @@ header{
     width: 90px;
     height: 40px;
     border-radius: 2px;
-    margin-top: 10px;
+    
         
     }
 
@@ -298,7 +270,6 @@ header{
     width: 40px;
     height: 40px;
     border-radius: 2px;
-    margin-top: 10px;
             
 }
 
@@ -311,28 +282,6 @@ h6{
     margin-left: 6px;
     
 }
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -362,7 +311,6 @@ h6{
 
     display:  flex;
 
-    position: absolute;
 
    
 
@@ -386,8 +334,7 @@ h6{
     align-items: top;
     justify-content: top;
     border:2px solid black;
-    margin-left: 60px;
-    margin-top: 40px;
+    
     gap: 5px;
 
 
@@ -421,11 +368,10 @@ h6{
     display:flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: flex-end;
     border:2px solid black;
 
-   margin-left: 10px;
-    margin-top: 40px;
+   justify-content: center;
+   justify-items: flex-end;
 
     width: 100px;
     height: 100px;
@@ -451,31 +397,15 @@ h6{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  .rectangle3{
     background-color: #03071E;
-    display:flex;
+    
     display:flex;
     flex-direction: column;
      
     justify-content: flex-start; 
     align-items: center; 
-    margin-left: 10px;
-    margin-top: 40px;
+    
     gap: 45px;
 
     width: 100px;
@@ -500,14 +430,12 @@ h6{
 
  .rectangle4{
     background-color: #6A040f;
-    display:flex;
-    position: absolute;
+
     display:flex;
     flex-wrap: wrap; 
     justify-content: center; 
     align-items: center; 
-    margin-left: 60px;
-    margin-top: 145px;
+    
 
     width: 100px;
     height:100px;
@@ -545,13 +473,11 @@ h6{
 
 .rectangle5 {
     background-color: #03071E;
-    position: absolute;
+    
     display: flex; 
     flex-direction: column;
     justify-content: center; 
-    align-items: center;
-    margin-left: 170px;
-    margin-top: 145px;
+
     width: 100px;
     height: 100px;
 }
