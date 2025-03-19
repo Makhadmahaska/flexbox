@@ -9,6 +9,14 @@
 
     }
     
+
+
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 .square{
 
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -27,9 +35,10 @@
 header{
     display: flex;
     flex-direction: column;
+    
     justify-content: center;
     height: 100vh;
-    width: 100vh;
+
 
 
     
@@ -43,8 +52,9 @@ header{
 {
     background-color: #370617;
     display:flex;
-     width: 650px;
-     height:300px;
+    justify-content: center;
+     width: 600px;
+     height:400px;
 
     
 
@@ -53,11 +63,21 @@ header{
  .rectangle-grid{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
     width: 450px;
+
     gap:10px;
     
     
  }
+ .rectangle-grid > div {
+    width: calc(50% - 10px); /* Tre kolumner */
+    height: 100px; /* Anpassa efter behov */
+}
+
 
 
 
@@ -65,9 +85,10 @@ header{
     background-color: #F48C06;
     flex-grow: 1;
     display: flex; 
-    align-items: flex-end;
+    align-items: center;
+    
 
-    gap: 0px;
+    gap: 2px;
     border-radius: 4px;
 }
 
@@ -76,9 +97,10 @@ header{
     flex-grow: 1;
 
     display: flex; 
+    justify-content: center;
     align-items: center;
-    justify-content: flex-start;
     border-radius: 4px;
+    gap: 4px;
 }
 
 
@@ -86,7 +108,6 @@ header{
     background-color: #F48C06;
 
     display: flex;
-    flex-grow: 1;
     
     align-items: center;
     justify-content: flex-end;
@@ -98,8 +119,8 @@ header{
     background-color: #F48C06;
     
     display: flex;
-
-    
+    align-items: center;
+    justify-content: space-evenly;
     
     border-radius: 4px;
     gap: 2px;
@@ -108,8 +129,10 @@ header{
 .row5_box {
     background-color: #F48C06;
     display: flex;
-    border-radius: 4px;
     justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+
     gap: 16px;
 }
 
@@ -117,6 +140,7 @@ header{
     background-color: #F48C06;
     display: flex; 
     justify-content: center;
+    align-items: center;
     gap: 4px;
     border-radius: 4px;
    
@@ -145,6 +169,7 @@ header{
 .box1 {
     display: flex;
     
+    
     background-color: #9D0208;
     width: 40px;
     height: 40px;
@@ -154,6 +179,7 @@ header{
 
 .box2 {
     display: flex;
+
     background-color: #9D0208;
     width: 40px;
     height: 60px;
@@ -295,35 +321,30 @@ h6{
 {
     background-color: orange;
     display:flex;
-  
 
+    width: 600px;
 
-
-    width: 550px;
-
-    height:300px;
+    height:400px;
 
     
 
  }
 
  .circkle_grid{
-
-    display:  flex;
-
-
-   
-
-    gap: -10rem;
-
- 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
     
+    align-items: center;
+    width: 400px;
+    
+    
 
-
-
+    
+    
+    gap: 10px;
   
-
  }
 
 
@@ -360,9 +381,6 @@ h6{
 
 }
 
-
-
-
  .rectangle2{
     background-color: #6A040f;
     display:flex;
@@ -372,6 +390,7 @@ h6{
 
    justify-content: center;
    justify-items: flex-end;
+
 
     width: 100px;
     height: 100px;
@@ -402,7 +421,6 @@ h6{
     
     display:flex;
     flex-direction: column;
-     
     justify-content: flex-start; 
     align-items: center; 
     
