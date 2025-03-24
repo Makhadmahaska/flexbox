@@ -12,12 +12,12 @@ header {
 
 .first-container{
     background-color: brown;
-    width: 600px; 
-    height: 350px;
+    width: 1000px; 
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
     
 }
 
@@ -36,27 +36,33 @@ header {
     background-color:#F48c06; 
     width: 468px; 
     height: 160px; 
+    border-radius: 4px;
      
 }
 
+
 .rect-two {
-    background-color: #F48c06; 
+    background-color:#F48c06; 
     width: 468px; 
     height: 160px; 
-    border: 2px solid #333;
-    box-sizing: border-box;
+    border-radius: 4px;
+     
 }
+
+
 
 .rect-three {
     background-color: #F48c06; 
     width: 468px; 
     height: 160px; 
+    border-radius: 4px;
 }
 
 .rect-four {
     background-color: #F48c06; 
     width: 468px; 
     height: 160px; 
+    border-radius: 4px;
    
 }
 
@@ -64,6 +70,7 @@ header {
     background-color: #f48c06;
     width: 468px; 
     height: 160px; 
+    border-radius: 4px;
    
 }
 
@@ -71,5 +78,6 @@ header {
     background-color: #F48c06; 
     width: 468px; 
     height: 160px; 
+    border-radius: 4px;
    
 }
