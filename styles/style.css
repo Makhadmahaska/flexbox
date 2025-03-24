@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    text-align: center; 
+}
+
+.first-container{
+    background-color: brown;
+    width: 600px; 
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+
+
+.rectangles {
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+
+   align-items: center; 
+    gap: 10px;
+}
+
+.rect-one {
+    background-color:#F48c06; 
+    width: 468px; 
+    height: 160px; 
+     
+}
+
+.rect-two {
+    background-color: #F48c06; 
+    width: 468px; 
+    height: 160px; 
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+
+.rect-three {
+    background-color: #F48c06; 
+    width: 468px; 
+    height: 160px; 
+}
+
+.rect-four {
+    background-color: #F48c06; 
+    width: 468px; 
+    height: 160px; 
+   
+}
+
+.rect-five {
+    background-color: #f48c06;
+    width: 468px; 
+    height: 160px; 
+   
+}
+
+.rect-six {
+    background-color: #F48c06; 
+    width: 468px; 
+    height: 160px; 
+   
+}
